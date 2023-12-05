@@ -1,0 +1,10 @@
+Pasos para instalar el programa
+
+-Instalar Xampp v3.3.0  Versión de PHP: 8.0.28
+-Iniciar Apache y MySql
+-Descargar la carpeta votacion y pegar en la carpeta htdocs que esta dentro de la carpeta Xampp.
+-En el control panel del Xampp presionar el boton Admin para ir a phpMyAdmin.
+-Crear la Base de Datos con el nombre de votacion.
+-Descargar el archivo votacion.sql e importarlo en la base de datos votacion.
+-Ir a la carpeta conexion y modificar el archivo conexion.php con sus datos de conexion.
+-En el navegador escribir http://localhost/votacion/index.php y aparecerá el formulario.
